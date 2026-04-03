@@ -1,5 +1,7 @@
 # Expense Tracker
 
+🚀 **Live Demo:** [https://expense-lhf2b2vz8-expensee.vercel.app/](https://expense-lhf2b2vz8-expensee.vercel.app/)
+
 A modern, responsive, Splitwise-inspired expense-sharing web application. It allows you to track personal expenses, analyze spending habits, and split expenses within groups.
 
 ## Features
@@ -15,9 +17,9 @@ A modern, responsive, Splitwise-inspired expense-sharing web application. It all
 
 This project is built with a modern web stack:
 
-- **Framework**: [Next.js](https://nextjs.org/) (App Router, React server components)
+- **Framework & Hosting**: [Next.js](https://nextjs.org/) (App Router), deployed on **[Vercel](https://vercel.com/)**
 - **UI & Styling**: [Tailwind CSS v4](https://tailwindcss.com/), Radix UI, [Lucide React](https://lucide.dev/) for icons
-- **Data & Auth**: [Supabase](https://supabase.com/) (PostgreSQL, edge functions, Googl OAuth)
+- **Database & Auth**: **[Supabase](https://supabase.com/)** (PostgreSQL, edge functions, Google OAuth). Vercel acts as the backend api/frontend, while Supabase deals with the database and authentication.
 - **State Management**: [React Query (TanStack Query)](https://tanstack.com/query/latest)
 - **Forms & Validation**: [React Hook Form](https://react-hook-form.com/) and [Zod](https://zod.dev/)
 - **Charts**: [Recharts](https://recharts.org/)
